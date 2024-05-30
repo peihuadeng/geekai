@@ -69,8 +69,8 @@ WeChatBot = false
     Domain = ""
 
 [[MjProxyConfigs]]
-  Enabled = false
-  ApiURL = "http://geekai-midjourney-proxy:8082"
+  Enabled = true
+  ApiURL = "http://geekai-midjourney-proxy:8080"
   Mode = ""
   ApiKey = "sk-geekmaster"
 
