@@ -41,7 +41,7 @@ services:
 
 
   midjourney-proxy:
-    image: novicezk/midjourney-proxy:2.6.0
+    image: novicezk/midjourney-proxy:2.6.2
     container_name: geekai-midjourney-proxy
     restart: always
     ports:
