@@ -81,8 +81,8 @@ services:
     depends_on:
       - geekai-api
     ports:
-      - "80:8080"
-      - "443:1443"
+      - "8080:80"
+      - "1443:443"
     volumes:
       - ./logs/nginx:/var/log/nginx
       - ./conf/nginx/conf.d:/etc/nginx/conf.d
